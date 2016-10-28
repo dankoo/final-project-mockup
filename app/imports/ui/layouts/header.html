@@ -1,20 +1,21 @@
 <template name="Header">
   <div class="ui top fixed borderless inverted menu">
     <div class="ui container">
+      <img style="margin-top: 10px; height: 50px" class="ui image"
+           src="http://www5.pbrc.hawaii.edu/logos/manoaseal_transparent.png">
       <a class="item" href="{{pathFor 'Home_Page'}}"><h1>Manoa Ticket Exchange</h1></a>
-      <a class="{{ isActiveRoute 'User_Profile_Page'}} item" href="{{ pathFor 'User_Profile_Page' }}">User Profile</a>
-      <a class="{{ isActiveRoute 'User_Home_Page'}} item" href="{{ pathFor 'User_Home_Page' }}">User Home Page</a>
       <a class="{{ isActiveRoute 'Events_Page'}} item" href="{{ pathFor 'Events_Page' }}">Events</a>
-      <a class="{{ isActiveRoute 'List_Item_Page'}} item" href="{{ pathFor 'List_Item_Page' }}">Items Listed</a>
-      <a class="{{ isActiveRoute 'Create_Item_Page'}} item" href="{{ pathFor 'Create_Item_Page' }}">Create Item</a>
-      <a class="{{ isActiveRoute 'Promoters_Page'}} item" href="{{ pathFor 'Promoters_Page' }}">Promoters</a>
       {{#if currentUser}}
-      <a class="{{ isActiveRoute 'User_Profile_Page'}} item" href="{{ pathFor 'User_Profile_Page' }}">User Profile</a>
-      <a class="{{ isActiveRoute 'User_Home_Page'}} item" href="{{ pathFor 'User_Home_Page' }}">User Home Page</a>
-      <a class="{{ isActiveRoute 'Events_Page'}} item" href="{{ pathFor 'Events_Page' }}">Events</a>
-      <a class="{{ isActiveRoute 'List_Item_Page'}} item" href="{{ pathFor 'List_Item_Page' }}">Items Listed</a>
-      <a class="{{ isActiveRoute 'Create_Item_Page'}} item" href="{{ pathFor 'Create_Item_Page' }}">Create Item</a>
-      <a class="{{ isActiveRoute 'Promoters_Page'}} item" href="{{ pathFor 'Promoters_Page' }}">Promoters</a>
+      <div class="right menu">
+        <div class="item">
+          <a class="{{ isActiveRoute 'User_Profile_Page'}} item" href="{{ pathFor 'User_Profile_Page' }}">Profile</a>
+          <div class="ui icon input">
+            <a class="{{ isActiveRoute 'sell-page'}} item" href="{{ pathFor 'sell-page' }}">Sell Tickets</a>
+            <input type="text" placeholder="Search for Events...">
+            <i class="search link icon"></i>
+          </div>
+        </div>
+      </div>
       {{/if}}
       <a href="#" class="item">{{> loginButtons }} </a>
     </div>

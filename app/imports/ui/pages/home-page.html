@@ -1,14 +1,14 @@
+<!--From Jordan Dumlao-->
 <template name="Home_Page">
-  <div class="ui middle aligned centered grid text container">
-
-    <div class="four wide column">
-      <img class="ui small circular image" src="/images/meteor-logo.png"/>
+  <div style= "min-height: 700px;" class="ui inverted vertical center aligned segment landing-page" >
+    <div class = "ui text container">
+      <img style="margin-top: 6em; height: 200px" class="ui centered image" src="http://www5.pbrc.hawaii.edu/logos/manoaseal_transparent.png">
+      <h1 style = "font-size: 4em;" class = "ui inverted header">Manoa Ticket Exchange</h1>
+      <h2>Where UHM students can find the best deals for tickets!</h2>
+      <div class = "ui huge green primary button">Lets get started!<i class="right arrow icon"></i></div>
     </div>
-
-    <div class="eight wide column">
-      <h1>Welcome to this template</h1>
-      <p>Now get to work and modify this app!</p>
-    </div>
-
+    {{#if currentUser}}
+    <h2>Welcome {{user}}</h2>
+    {{/if}}
   </div>
 </template>
