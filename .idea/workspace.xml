@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40670c9b-3f73-4c13-af4d-ee095e03cb4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/imports/api/contacts/contacts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/imports/api/contacts/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/imports/ui/pages/home-page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/imports/ui/pages/sell-ticket-page.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/imports/ui/pages/sell-ticket-page.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/imports/api/stuff/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/imports/api/stuff/stuff.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/imports/ui/pages/Create_Item.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/imports/ui/pages/Create_Item_Page.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/imports/ui/pages/List_Item_Page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/imports/ui/pages/List_Item_Page.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/imports/ui/pages/User_Home_Page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/imports/ui/pages/User_Home_Page.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/imports/ui/pages/list-stuff-page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/imports/ui/pages/list-stuff-page.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/doc/Screen Shot 2016-10-27 at 10.51.54 PM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/doc/Screen Shot 2016-10-27 at 10.52.01 PM.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/startup/client/router.js" afterPath="$PROJECT_DIR$/app/imports/startup/client/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/ui/layouts/header.html" afterPath="$PROJECT_DIR$/app/imports/ui/layouts/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/ui/pages/Events_Page.html" afterPath="$PROJECT_DIR$/app/imports/ui/pages/Events_Page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/ui/pages/Events_Page.js" afterPath="$PROJECT_DIR$/app/imports/ui/pages/Events_Page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/ui/pages/home-page.html" afterPath="$PROJECT_DIR$/app/imports/ui/pages/home-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/imports/ui/pages/index.js" afterPath="$PROJECT_DIR$/app/imports/ui/pages/index.js" />
     </list>
     <ignored path="final-project-mockup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -141,7 +120,7 @@
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="45">
-                  <caret line="3" column="117" selection-start-line="3" selection-start-column="117" selection-end-line="3" selection-end-column="117" />
+                  <caret line="3" column="87" selection-start-line="3" selection-start-column="87" selection-end-line="3" selection-end-column="87" />
                   <folding />
                 </state>
               </provider>
@@ -1163,7 +1142,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="117" selection-start-line="3" selection-start-column="117" selection-end-line="3" selection-end-column="117" />
+          <caret line="3" column="87" selection-start-line="3" selection-start-column="87" selection-end-line="3" selection-end-column="87" />
           <folding />
         </state>
       </provider>
