@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40670c9b-3f73-4c13-af4d-ee095e03cb4d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/doc/Screen Shot 2016-10-27 at 10.51.54 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/doc/Screen Shot 2016-10-27 at 10.52.01 PM.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="final-project-mockup.iws" />
@@ -120,7 +118,7 @@
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="45">
-                  <caret line="3" column="87" selection-start-line="3" selection-start-column="87" selection-end-line="3" selection-end-column="87" />
+                  <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
                   <folding />
                 </state>
               </provider>
@@ -1142,7 +1140,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="87" selection-start-line="3" selection-start-column="87" selection-end-line="3" selection-end-column="87" />
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
           <folding />
         </state>
       </provider>
